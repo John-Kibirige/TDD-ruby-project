@@ -24,7 +24,7 @@ RSpec.describe 'Solver' do
         end
         it 'returns buzz when the parameter passed is divisible by 5' do 
             solver = Solver.new 
-            expect(solver.fizzbuzz(50).to eq("buzz"))
+            expect(solver.fizzbuzz(50)).to eq("buzz")
         end
         it 'returns fizzbuzz when the parameter passed is divisible by 3 and 5' do 
             solver = Solver.new 
