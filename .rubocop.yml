@@ -51,3 +51,6 @@ Style/HashTransformValues:
   Enabled: false
 Layout/EndOfLine:
   Enabled: False
+AllCops:
+  Exclude:
+    - './bin/rspwc'
