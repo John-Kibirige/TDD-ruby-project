@@ -38,7 +38,10 @@ To get a local copy up and running follow these simple example steps.
    cd TDD-ruby-project
 
    ```
-
+4. Install the neccesary gems for this file using the comand below
+   ``` 
+   bundle install
+   ````
 4. Run `bin/spec` to run all the spec tests
 
 #### For the linters
