@@ -1,4 +1,6 @@
-class Solver 
+class Solver
+    
+    # defining the factorial method
     def factorial(n)
         if n < 0 
             raise StandardError
@@ -10,4 +12,10 @@ class Solver
 
         return n*factorial(n - 1)
     end
+
+    # defining the reverse method
+    def reverse(s) 
+        s.reverse 
+    end
+
 end

@@ -14,6 +14,6 @@ RSpec.describe 'Solver' do
 
     it 'check if the reverse method in the Solver class reverses a passed string' do 
         solver = Solver.new 
-        expect solver.reverse("hello").to eq("olleh")
+        expect(solver.reverse("hello")).to eq("olleh")
     end 
 end
