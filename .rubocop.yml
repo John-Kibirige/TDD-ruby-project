@@ -53,4 +53,4 @@ Layout/EndOfLine:
   Enabled: False
 AllCops:
   Exclude:
-    - './bin/rspwc'
+    - './bin/rspec'
