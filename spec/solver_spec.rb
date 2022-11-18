@@ -1,4 +1,5 @@
 require 'rspec'
+require './lib/solver'
 
 RSpec.describe 'Solver' do 
     it 'check if the right parameters are passed to factorial method' do 
