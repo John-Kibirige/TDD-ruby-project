@@ -52,7 +52,7 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [benardop](https://github.com/benardop)
 - Twitter: [@bepacho](https://twitter.com/bepacho)
-- Linkedin:[Benard Pacho](hhttps://www.linkedin.com/in/ochieng-benard-8264b815/)
+- Linkedin: [Benard Pacho](https://www.linkedin.com/in/ochieng-benard-8264b815/)
 
 #### 👤 **Kibirige John**
 
