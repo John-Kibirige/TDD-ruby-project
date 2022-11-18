@@ -1,33 +1,28 @@
 class Solver
+  # defining the factorial method
+  def factorial(n_value)
+    raise StandardError if n_value.negative?
 
-    # defining the factorial method
-    def factorial(n)
-        if n < 0 
-            raise StandardError
-        end
+    return 1 if n_value.zero?
 
-        if n == 0 
-            return 1
-        end 
+    n_value * factorial(n_value - 1)
+  end
 
-        return n*factorial(n - 1)
+  # defining the reverse method
+  def reverse(word)
+    word.reverse
+  end
+
+  # defining the fizzbuzz method
+  def fizzbuzz(n_value)
+    if (n_value % 3).zero? && (n_value % 5).zero?
+      'fizzbuzz'
+    elsif (n_value % 3).zero?
+      'fizz'
+    elsif (n_value % 5).zero?
+      'buzz'
+    else
+      n_value
     end
-
-    # defining the reverse method
-    def reverse(word) 
-        word.reverse 
-    end
-
-    # defining the fizzbuzz method 
-    def fizzbuzz(n) 
-        if n % 3 == 0 && n % 5 == 0 
-            "fizzbuzz"
-        elsif n % 3 == 0 
-            "fizz"
-        elsif n % 5 == 0 
-            "buzz"
-        else 
-          n
-        end
-    end
+  end
 end
